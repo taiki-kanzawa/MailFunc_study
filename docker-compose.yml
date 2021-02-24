@@ -4,6 +4,8 @@ services:
     build: ./docker/php
     volumes: 
       - ./laravel_app:/work
+      - vendor-store:/work/vendor
+      - node_modules-store:/work/node_modules
     depends_on: 
       - mysql
   
@@ -24,4 +26,6 @@ services:
       - db-volume:/var/lib/mysql
 
 volumes: 
+  vendor-store:
+  node_modules-store:
   db-volume:

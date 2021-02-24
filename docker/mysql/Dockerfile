@@ -1,6 +1,6 @@
 FROM mysql:8.0
 
-ENV MYSQL_DATABASE=laravel_app \
+ENV MYSQL_DATABASE=ToDo \
   MYSQL_USER=phper \
   MYSQL_PASSWORD=secret \
   MYSQL_ROOT_PASSWORD=secret \
