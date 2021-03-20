@@ -1,6 +1,6 @@
 FROM mysql:8.0
 
-ENV MYSQL_DATABASE=ToDo \
+ENV MYSQL_DATABASE=Mail_study \
   MYSQL_USER=phper \
   MYSQL_PASSWORD=secret \
   MYSQL_ROOT_PASSWORD=secret \
